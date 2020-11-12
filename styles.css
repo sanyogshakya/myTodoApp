@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu';
+}
+
+body{
+    background: linear-gradient(to right, #83ffd6, rgb(0, 255, 170));
+}
+
+.title{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+h1{
+    color: rgb(0, 174, 255);
+    text-shadow: 3px 3px 6px #111;
+}
+
+.main-container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 60px;
+}
+
+.app-container{
+    background-color: beige;
+    max-height: 100%;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 8px #555;
+}
+
+.todo-input{
+    border: none;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #555;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-add-btn{
+    border: none;
+    background-color: rgb(51, 219, 79);
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #555;
+    margin-left: 5px;
+    transition: all 0.4s ease-out;
+    /* display: none; */
+}
+
+.todo-add-btn:hover{
+    color: rgb(51, 219, 79);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.item-edit-btn{
+    border: none;
+    background-color: rgb(41, 48, 141);
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #555;
+    /* display: none; */
+    margin-left: 5px;
+    transition: all 0.4s ease-out;
+}
+
+.item-edit-btn:hover{
+    color: rgb(41, 48, 141);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.todo-list-container{
+    /* background-color: rgb(197, 171, 68); */
+    width: 65%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.todo-list-elements{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-shadow: inset 1px 1px 1px #555;
+}
+
+.check-item {
+    display: flex;
+}
+
+.check-btn{
+    color: rgb(140, 153, 140);
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.check-btn:hover{
+    color: rgb(0, 255, 21);
+}
+
+.list-item {
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.edit-trash{
+    margin-left: 30px;
+}
+
+.edit-btn{
+    color: rgb(126, 131, 190);
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.edit-btn:hover{
+    color: rgb(41, 48, 141);
+}
+
+.trash-btn{
+    color: rgb(206, 161, 161);
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.trash-btn:hover{
+    color: rgb(224, 52, 52);
+}
+
+.clear-all-btn{
+    background: rgb(243, 96, 96);
+    color: white;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #555;
+    display: none;
+    cursor: pointer;
+}
+
+.clear-all-btn:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
